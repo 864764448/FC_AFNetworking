@@ -92,7 +92,7 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = "FC_AFNetworking/**/*.*"
+s.source_files  = "FC_AFNetworking/AFNetworking/*.{h,m}", "FC_AFNetworking/UIKit+AFNetworking/*.{h,m}"
   # s.exclude_files = "Classes/Exclude"
 
   # s.public_header_files = "Classes/**/*.h"
